@@ -3,6 +3,18 @@
 [![License](https://img.shields.io/github/license/timescale/helm-charts)](https://github.com/timescale/helm-charts/blob/main/LICENSE)
 [![Slack](https://img.shields.io/badge/chat-join%20slack-brightgreen.svg)](https://timescaledb.slack.com/)
 
+# About this fork
+
+This is a fork of the official TimescaleDB chart repository. It contains
+modifications to the official `timescaledb-single` chart and addresses several pain points in
+it:
+
+* The SSL certificate is only generated/mounted if SSL is actually enabled (#284)
+* Fixes recovery script claiming that it fetched a file when it didn't (#442)
+* Removed default S3 env variables for pgbackrest to allow non-S3 repositories (#389)
+* Added pod selector for the primary service (#394)
+* ~~Removed the obsolete -pg-version 11 switch from the timescaledb-tune command (#294)~~
+
 # Timescale Helm Charts
 
 This repository contains Helm charts to help with the deployment of
