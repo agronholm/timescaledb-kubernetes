@@ -126,6 +126,17 @@
   "properties": {
     "affinity": {
       "additionalProperties": false,
+      "properties": {
+        "podAffinity": {
+          "type": "object"
+        },
+        "podAntiAffinity": {
+          "type": "object"
+        },
+        "nodeAffinity": {
+          "type": "object"
+        }
+      },
       "type": "object"
     },
     "affinityTemplate": {

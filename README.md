@@ -9,6 +9,7 @@ This is a fork of the official TimescaleDB chart repository. It contains
 modifications to the official `timescaledb-single` chart and addresses several pain points in
 it:
 
+* Made it possible to specify affinity directly via `affinity`
 * The SSL certificate is only generated/mounted if SSL is actually enabled (#284)
 * Fixes recovery script claiming that it fetched a file when it didn't (#442)
 * Removed default S3 env variables for pgbackrest to allow non-S3 repositories (#389)

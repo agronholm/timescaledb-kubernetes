@@ -206,6 +206,13 @@ properties:
   affinity:
     type: object
     additionalProperties: false
+    properties:
+      podAffinity:
+        type: object
+      podAntiAffinity:
+        type: object
+      nodeAffinity:
+        type: object
   affinityTemplate:
     type: string
   serviceAccount:
