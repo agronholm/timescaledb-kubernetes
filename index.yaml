@@ -2,7 +2,23 @@ apiVersion: v1
 entries:
   timescaledb-single:
   - apiVersion: v1
-    created: "2022-09-29T18:17:10.443990603+03:00"
+    created: "2022-09-30T15:45:07.874267557+03:00"
+    description: TimescaleDB HA Deployment.
+    digest: 5a22d39b8d0fc9f4e18137bdd0de0584e8bc5edce16ea522fea882f88cd8e136
+    home: https://github.com/timescale/helm-charts
+    maintainers:
+    - email: support@timescale.com
+      name: TimescaleDB
+    name: timescaledb-single
+    sources:
+    - https://github.com/timescale/helm-charts
+    - https://github.com/timescale/timescaledb-docker-ha
+    - https://github.com/zalando/patroni
+    urls:
+    - timescaledb-single-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v1
+    created: "2022-09-30T15:45:07.870561241+03:00"
     description: TimescaleDB HA Deployment.
     digest: 644a26323bd29f6545f7999895b752522a1a06a34501cd6b20915f98011f2061
     home: https://github.com/timescale/helm-charts
@@ -18,7 +34,7 @@ entries:
     - timescaledb-single-0.16.4.tgz
     version: 0.16.4
   - apiVersion: v1
-    created: "2022-09-29T18:17:10.439104854+03:00"
+    created: "2022-09-30T15:45:07.867458203+03:00"
     description: TimescaleDB HA Deployment.
     digest: 06fdd9bde401e44815c03fe05108cf778a4ebeb9c8675304dd5ab86fe18220f2
     home: https://github.com/timescale/helm-charts
@@ -34,7 +50,7 @@ entries:
     - timescaledb-single-0.16.3.tgz
     version: 0.16.3
   - apiVersion: v1
-    created: "2022-09-29T18:17:10.434165676+03:00"
+    created: "2022-09-30T15:45:07.863927156+03:00"
     description: TimescaleDB HA Deployment.
     digest: e750c961d8573d8bcd5701879272e4f9f67ccfa37b4376a038d0f0ac2fc8d86b
     home: https://github.com/timescale/helm-charts
@@ -49,4 +65,4 @@ entries:
     urls:
     - timescaledb-single-0.15.0.tgz
     version: 0.15.0
-generated: "2022-09-29T18:17:10.427250778+03:00"
+generated: "2022-09-30T15:45:07.860568608+03:00"
